@@ -1,2 +1,2 @@
 # homebrew-espanso
-Homebrew formula for the Espanso cask on macOS
+Homebrew cask for the [Espanso](https://espanso.org) tool on macOS.
