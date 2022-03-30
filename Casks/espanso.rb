@@ -1,12 +1,12 @@
 cask "espanso" do
-  version "2.1.4-beta"
+  version "2.1.5-beta"
 
   if Hardware::CPU.intel?
     url "https://github.com/federico-terzi/espanso/releases/download/v#{version}/Espanso-Mac-Intel.zip"
-    sha256 "bb52c26936b248787e9645510005e364f176031e584e8252c261e96e3f8a4000"
+    sha256 "6058ea8b851073ab97a6ffd257127ef7cfd367ccc6c290648217b3b657319539"
   else
     url "https://github.com/federico-terzi/espanso/releases/download/v#{version}/Espanso-Mac-M1.zip"
-    sha256 "475e1f0c6dc4fff20a1426ddbb3c5a89d49f1b18596e4d484a25f004d7077ec2"
+    sha256 "8e71bf8904f3418ddc54c8faeb9e1f40fe4a57bef81d6c93468dbf0c55bcb210"
   end
 
   name "Espanso"
