@@ -13,6 +13,17 @@ cask "espanso" do
   desc "A Privacy-first, Cross-platform Text Expander"
   homepage "https://espanso.org/"
 
+  caveats do
+    <<~EOS
+      This tap is deprecated in favor of the official homebrew-cask tap.
+
+      You can safely untap this tap with the following command:
+      brew untap espanso/espanso
+
+      For more details visit: https://espanso.org/docs/install/mac/
+    EOS
+  end
+
   app "Espanso.app"
 
   zap trash: "~/Library/Caches/espanso"
